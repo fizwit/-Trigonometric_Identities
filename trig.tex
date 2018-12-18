@@ -1,0 +1,112 @@
+%Tex
+%
+%   trig.tex
+%
+%   Trigonometric Identities
+%
+\baselineskip=16pt
+\nopagenumbers
+
+\def\dx{{d\over dx}}
+\def\csch{${\rm csch}$}
+\def\sech{${\rm sech}$}
+
+\centerline {\bf Trigonometric Identities}
+\vskip 10pt
+
+{\settabs 3 \columns
+\+$ \sin \theta ={opd\over hyp}$ & $ \sin ^2x=1-\cos ^2x$ &
+        $ \sin 2x=2\sin x\cos x$ \cr
+\+$ \cos \theta ={adj\over hyp}$ & $ \cos ^2x=1-\sin ^2x$ &
+        $ \cos 2x=\cos ^2x-\sin ^2x$             \cr
+\+$ \tan \theta ={opd\over adj}$ & $ \tan ^2x =\sec ^2-1$ &
+        $ \tan 2x={2\tan x\over 1-\tan ^2x}$ \cr
+\+$ \csc \theta ={hyp\over opd}$ & $ \sec ^2x=1+\tan ^2x$ &
+        $ \sin ^2x = {1-\cos 2x\over 2}$         \cr
+\+$ \sec \theta ={hyp\over adj}$ & $ \csc ^2x=1+\cot ^2x$ &
+        $ \cos ^2x={1+\cos 2x\over 2} $ \cr
+\+$ \cot \theta ={adj\over opd}$ & $ \cot ^2x=\csc ^2x-1$ &
+        $ \tan ^2x={1-\cos x\over 1+\cos x}$ \cr
+\+$ \sin x={1\over\csc x} $              & $ \csc x={1\over\sin x} $ &
+        $ \sin (-x)=-\sin x$ \cr
+\+$ \cos x={1\over\sec x} $              & $ \sec x={1\over\cos x} $ &
+        $ \cos (-x)=\cos x$ \cr
+\+$ \tan x={\sin x\over\cos x} $ & $ \cot x={cos x\over\sin x}$ &
+  $ \tan (-x)=-\tan x$ \cr
+} %end 3 columns
+
+{\settabs 4 \columns
+\+$ \sin ^{-1}(\sin \theta )=\theta$ &$ \sin (\sin ^{-1}\theta )=\theta $
+ &$ \cos ^{-1}(\cos \theta )=\theta$ &$ \cos (\cos ^{-1}\theta )=\theta$ \cr
+\+$ \sin ^{-1}(\cos \theta )={\pi\over 2}-\theta$
+ &$ \sin (\cos ^{-1}\theta )=\sqrt{1-\theta ^2}$
+ &$ \cos ^{-1}(\sin \theta )={\pi\over 2}-\theta$
+ &$ \cos (\sin ^{-1}\theta )=\sqrt{1-\theta ^2}$\cr
+}
+{\settabs 2 \columns
+\+$ \sin x+\sin y=2\sin ({x+y\over 2})\cos ({x-y\over 2})$
+ &$ \cos x+\cos y=2\cos ({x+y\over 2})\cos ({x-y\over 2})$\cr
+\+$ \sin x-\sin y=2\cos ({x+y\over 2})\sin ({ x-y\over 2})$
+ &$ \cos x-\cos y=2\sin ({x+y\over 2})\sin ({x-y\over 2})$\cr
+\+$ \sin x\cos y = {1\over 2}\sin (x-y) + {1\over 2}\sin (x+y)$ &
+  $ \cos x\sin y= {1\over 2}\sin (x+y)-{1\over 2}\sin (x-y)$ \cr
+\+$ \sin x\sin y = {1\over 2}\cos (x-y) - {1\over 2}\cos (x+y)$ &
+  $ \cos x\cos y = {1\over 2}\cos (x+y) + {1\over 2}\cos (x-y)$ \cr
+\+$ \sin (x+y)=\sin x\cos y + \cos x\sin y$ &
+  $ \cos (x+y)=\cos x\cos y - \sin x\sin y$\cr
+\+$ \sin (x-y)=\sin x\cos y-\cos x\sin y$ &
+  $ \cos (x-y)=\cos x\cos y +\sin x\sin y$\cr
+} %end 2 columns
+\vskip 10pt
+{\settabs 3 \columns  %hyperblic functions
+\+$ \sinh x={e^x-e^{-x} \over 2}$ & $ \sinh ^2x=\cosh ^2x-1$ &
+  $ \csch ^2x=\coth ^2x -1 $ \cr
+\+$ \cosh x={e^x+e^{-x} \over 2}$ & $ \cosh ^2x=\sinh ^2x-1$ &
+  $ \sech ^2x=1-\tanh ^2 x$ \cr
+\+$ \tanh x={e^x-e^{-x} \over e^x+e^{-x}}$ & $\tanh ^2x=1-\sech ^2x$ &
+  $ \coth ^2x=1+\csch ^2x$ \cr
+\+$ \cosh x+\sinh x = e^x$ & $ \sinh ^2x={\cosh 2x-1\over 2} $ &
+  $ \sinh 2x=2\sinh x\cosh x$\cr
+\+$ \cosh x-\sinh x = e^{-x}$ & $ \cosh ^2x={\cosh 2x+1\over 2} $&
+  $ \cosh 2x=\cosh ^2x+\sinh ^2x$\cr
+\+$ \sinh (-x)=-\sinh x$ & $\cosh (-x)=\cosh x$ & $\tanh (-x)=-\tanh x$\cr
+\+$ \sinh ^{-1}x=\ln (x+\sqrt{1+x^2})$ & $\cosh ^{-1}=\ln (x+\sqrt{x^2-1})$
+ &$ \tanh ^{-1}x={1\over2}\ln ({1+x\over 1-x})$\cr
+}
+{\settabs 2 \columns
+\+$(\cosh x+\sinh x)^n=\cosh nx+\sinh nx$
+ &$(\cosh x-\sinh x)^n=\cosh nx-\sinh nx$ \cr
+\+$\sinh (x+y)=\sinh x\cosh y +\cosh x\sinh y$
+ &$\cosh (x+y)=\cosh x\cosh y +\sinh x\sinh y$ \cr
+\+$\sinh (x-y)=\sinh x\cosh y -\cosh x\sinh y$
+ &$\cosh (x-y)=\cosh x\cosh y -\sinh x\sinh y$ \cr
+\+$\sinh x\cosh y={1\over 2}\lbrack\sinh (x+y)+\sinh (x-y)\rbrack$
+ &$\cosh x\sinh y={1\over 2}\lbrack\sinh (x+y)-\sinh (x-y)\rbrack$ \cr
+\+$\cosh x\cosh y={1\over 2}\lbrack\cosh (x+y)+\cosh (x-y)\rbrack$
+ &$\sinh x\sinh y={1\over 2}\lbrack\cosh (x+y)-\cosh (x-y)\rbrack$ \cr
+\+$\sinh x+\sinh y=2\sinh ({x+y\over 2})\cosh ({x-y\over 2})$
+ &$\sinh x-\sinh y=2\cosh ({x+y\over 2})\sinh ({x-y\over 2})$ \cr
+\+$\cosh x+\cosh y=2\cosh ({x+y\over 2})\cosh ({x-y\over 2})$
+ &$\cosh x-\cosh y=2\sinh ({x+y\over 2})\sinh ({x-y\over 2})$ \cr
+}
+\vskip 4pt
+\baselineskip 12pt
+{\settabs 12 \columns %trig table
+        \line{\hskip 120pt\leaders\hrule \hfill\hbox{\hskip 120pt}}
+\+&&&\hfill$\theta$\hfill & \hfill$0$\hfill & \hfill${\pi\over 6}$\hfill
+        &\hfill${\pi\over 4}$\hfill & \hfill${\pi\over 3}$\hfill
+        &\hfill${\pi\over 2}$\hfill & \cr
+        \line{\hskip 120pt\leaders\hrule height2pt\hfill\hbox{\hskip 120pt}}
+\+&&&\hfill$\sin$\hfill & \hfill$0$\hfill & \hfill${1\over      2}$\hfill
+        &\hfill${\sqrt 2\over 2}$\hfill & \hfill${\sqrt 3\over 2} $\hfill
+        &\hfill $1$ \hfill &\cr
+        \line{\hskip 120pt\leaders\hrule \hfill\hbox{\hskip 120pt}}
+\+&&&\hfill$\cos$\hfill & \hfill$1$\hfill & \hfill${\sqrt 3\over 2}$\hfill
+        &\hfill${\sqrt 2\over 2}$\hfill & \hfill${1 \over 2}$ \hfill
+        & \hfill$0$\hfill & \cr
+        \line{\hskip 120pt\leaders\hrule \hfill\hbox{\hskip 120pt}}
+\+&&&\hfill$\tan$\hfill & \hfill$0$\hfill & \hfill${\sqrt 3\over 3}$\hfill
+        &\hfill$1$\hfill & \hfill$\sqrt 3$\hfill & \hfill$\infty$\hfill &\cr
+        \line{\hskip 120pt\leaders\hrule \hfill\hbox{\hskip 120pt}}
+}
+\end
